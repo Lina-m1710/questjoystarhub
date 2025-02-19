@@ -1,0 +1,79 @@
+section{
+    scroll-margin-top: 100px;
+}
+h1{
+    font-size: 48px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    @media screen and(max-width:768px){
+        font-size: 48px;
+        line-height: 56px;
+    }
+    @media screen and(max-width:320px){
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+h2{
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    @media screen and(max-width:768px){
+        font-size: 30px;
+    }
+}
+
+.title-text{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 31px 0;
+    @media screen and(max-width:768px){
+        margin: 15px auto 28px;
+    }
+}
+
+h3{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0059ff;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    @media screen and(max-width:830px){
+        font-size: 18px;
+        line-height: 20px;
+    }
+    @media screen and(max-width:768px){
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+h5{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #0059ff;
+}
+h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #444444;
+}
+
+.text{
+    font-family: "Caprasimo", serif;
+}

@@ -1,0 +1,24 @@
+.howto{
+    padding-bottom: 108px;
+    @media screen and(max-width:768px){
+        padding-bottom: 70px;
+    }
+}
+.howto-list{
+    display: flex;
+    justify-content: space-between;
+}
+.howto-item::after{
+    top: 0;
+    height: 207px;
+}
+.howto-item-text{
+    margin-top: 24px;
+}
+.howto-item-text h5{
+    height: 61px;
+}
+.howto-item-text p{
+    font-size: 20px;
+    line-height: 28px;
+}

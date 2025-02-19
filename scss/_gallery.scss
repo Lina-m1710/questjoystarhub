@@ -1,0 +1,16 @@
+.gallery-list .slick-list{
+    margin-right: -467px;
+    @media screen and(max-width:768px){
+        margin: 0;
+    }
+}
+.gallery-list .slick-track{
+    padding: 72px 0 128px;
+    @media screen and(max-width:768px){
+        padding: 55px 0 64px;
+    }
+}
+.gallery-item{
+    width: 439px;
+    margin-right: 28px;
+}

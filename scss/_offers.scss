@@ -1,0 +1,62 @@
+.offers{
+    padding-bottom: 93px;
+    @media screen and(max-width:768px){
+        padding-bottom: 42px;
+    }
+}
+.offers-list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.offers-list .slick-track{
+    padding-top: 41px;
+}
+.offers-item{
+    width: 34.38%;
+    height: 130.54px;
+    background: rgba(66, 132, 166, 0.4);
+    border-radius: 50px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    @media screen and(max-width:768px){
+        width: 408px;
+        height: 131px !important;
+    }
+}
+.offers-item:nth-child(2){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    @media screen and(max-width:768px){
+       position: static !important;
+       transform: unset;
+    }
+}
+.offers-item-text{
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 350px;
+    position: relative;
+}
+.offers-item-text::after{
+    content: "";
+    position: absolute;
+    background-image: url(../images/flag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 32px;
+    height: 53px;
+    top: -53px;
+    right: -32px;
+    @media screen and(max-width:1230px){
+        right: -12px;
+    }
+}

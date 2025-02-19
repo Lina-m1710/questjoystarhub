@@ -1,0 +1,36 @@
+
+.reviews{
+    padding-bottom: 93px;
+    @media screen and(max-width:768px){
+        padding-bottom: 46px;
+    }
+}
+.reviews-list {
+    display: flex;
+    justify-content: space-between;
+    @media screen and(max-width:768px){
+       margin-top: 90px;
+    }
+}
+
+.reviews-item{
+    width: 24.35%;
+    @media screen and(max-width:768px){
+        width: 340px;
+        margin-right: 24px;
+    }
+}
+
+.reviews-item-text{
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 33px;
+    position: relative;
+}
+.reviews-item-text span{
+    font-size: 64px;
+    position: absolute;
+    top: -12px;
+    left: 0;
+}
